@@ -1,7 +1,33 @@
 # Traductor Roleplay - Neverwinter NEE by Exar22
 
 Esta es una aplicación diseñada para capturar y traducir automáticamente el chat de **Neverwinter Nights: Enhanced Edition** del inglés al español, facilitando una experiencia fluida de roleplay en servidores internacionales.
+---
+---
 
+## 🛠️ Configuración Necesaria en el Juego (¡Obligatorio!)
+
+Para que Neverwinter Nights guarde tu chat en tiempo real y la aplicación pueda leerlo, debes asegurarte de tener activado el Log de cliente. Sigue estos sencillos pasos:
+
+1. Ve a tus documentos, en la ruta: `Documentos\Neverwinter Nights\`.
+2. Abre el archivo **`settings.tml`** con el bloc de notas.
+3. Busca la sección `[Game Options]` y asegúrate de cambiar o añadir las siguientes líneas:
+   ```[game.log]
+		flush-immediately = true
+		[game.log.chat]
+			[game.log.chat.all]
+				enabled = false
+			[game.log.chat.emotes]
+				enabled = true
+			[game.log.chat.text]
+				enabled = true
+		[game.log.debug]
+			assert = false
+			network = false
+			nui = false
+			scriptvm = false
+		[game.log.resman]
+			[game.log.resman.lookup-failures]
+				enabled = false
 ---
 
 ## Características Principales
