@@ -123,7 +123,7 @@ class TranslatorApp:
             
             self.deepl_translator = translator_test
             self.mode = "DeepL"
-            self.title_label.config(text="Chat Traducido: Modo DEEPL PREMIUM", fg="#00adb5")
+            self.title_label.config(text="Chat Traducido: Modo DEEPL", fg="#00adb5")
             
             with open(CONFIG_FILE, "w", encoding="utf-8") as f:
                 f.write(api_key)
@@ -158,13 +158,13 @@ class TranslatorApp:
             return GoogleTranslator(source=source_lang, target=target_lang).translate(text)
 
     def watch_log(self):
-        self.log_message("[Sistema]: Buscando el archivo log de Haze...\n", "sistema")
+        self.log_message("[Sistema]: Buscando el archivo log de Neverwinter...\n", "sistema")
         
         while not os.path.exists(LOG_PATH) and self.running:
             time.sleep(1)
             
         if os.path.exists(LOG_PATH):
-            self.log_message("[Sistema]: ¡Log detectado! Traduciendo rol en tiempo real...\n", "sistema")
+            self.log_message("[Sistema]: ¡Log detectado! Traduciendo en tiempo real...\n", "sistema")
             self.log_message("═" * 60 + "\n", "separador")
             
             # Cambiado a 'latin-1' para compatibilidad universal con los caracteres de logs en Windows
