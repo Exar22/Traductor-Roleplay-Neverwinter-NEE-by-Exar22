@@ -4,7 +4,7 @@ Esta es una aplicación diseñada para capturar y traducir automáticamente el c
 ---
 ---
 
-## 🛠️ Configuración Necesaria en el Juego (¡Obligatorio!)
+## Configuración Necesaria en el Juego (¡Obligatorio!)
 
 Para que Neverwinter Nights guarde tu chat en tiempo real y la aplicación pueda leerlo, debes asegurarte de tener activado el Log de cliente. Sigue estos sencillos pasos:
 
