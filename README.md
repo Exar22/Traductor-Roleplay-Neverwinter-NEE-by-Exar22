@@ -1,6 +1,6 @@
 # Traductor Roleplay - Neverwinter NEE by Exar22
 
-Esta es una aplicación diseñada para capturar y traducir automáticamente el chat de **Neverwinter Nights: Enhanced Edition** del inglés al español, facilitando una experiencia fluida de roleplay en servidores internacionales.
+Esta es una aplicación diseñada para capturar y traducir automáticamente el chat de **Neverwinter Nights: Enhanced Edition** del inglés al español, facilitando una experiencia mas fluida de roleplay en servidores.
 ---
 ---
 
