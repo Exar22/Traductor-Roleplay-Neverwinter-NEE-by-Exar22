@@ -10,7 +10,7 @@ Para que Neverwinter Nights guarde tu chat en tiempo real y la aplicación pueda
 
 1. Ve a tus documentos, en la ruta: `Documentos\Neverwinter Nights\`.
 2. Abre el archivo **`settings.tml`** con el bloc de notas.
-3. Busca la sección `[Game]` y asegúrate de cambiar o añadir las siguientes líneas:
+3. Busca la sección `[Game]` y asegúrate de cambiar o añadir las siguientes líneas y al finalizar guarda el archivo:
    ```
    [game.log]
 		flush-immediately = true
