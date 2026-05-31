@@ -43,7 +43,7 @@ Para que Neverwinter Nights guarde tu chat en tiempo real y la aplicación pueda
 1. **Descarga el ejecutable:** Ve a la sección de **Releases** (Lanzamientos) a la derecha de este repositorio y descarga el archivo `.exe`.
 2. **Ejecuta el programa:** Ábrelo despues de iniciar el juego neverwinter nights enchanced edition, La app detectará automáticamente tu archivo de logs.
 3. *(Opcional)* Si cuentas con una clave de desarrollador de DeepL, pégala en la sección inferior de ajustes y presiona **Conectar DeepL**.
-4. Para que la traduccion funcione perfectamente debes de presionar *enter* en el juego para que se active el chat del juego, luego vas a la aplicacion, escribes lo que quieras decir en español y presionas *enter*, automaticamente se pegara lo que escribiste en la aplicacion de traduccion en el chat del juego ya en ingles listo para volver al juego y a presionar *enter*.
+4. Para que la traduccion funcione perfectamente debes de presionar *enter* en el juego para que se active el chat, luego vas a la aplicacion, escribes lo que quieras decir en español y presionas *enter*, automaticamente se pegara lo que escribiste en la aplicacion de traduccion en el chat del juego ya en ingles, ahora solo debes volver al juego y presionar *enter* para mandar tu texto traducido del español al ingles.
 
 ---
 
